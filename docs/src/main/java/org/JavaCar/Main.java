@@ -11,6 +11,7 @@ public class Main {
     private static Scanner escaner = new Scanner(System.in);
     private static List<Solicitud> solicitudes = new ArrayList<>();
     private static double ingressosTotals = 0;
+
 //Menú principal para gestionar el alquiler de vehículos tanto como usuario como administrador
     public static void main(String[] args) {
         inicialitzarVehicles();
