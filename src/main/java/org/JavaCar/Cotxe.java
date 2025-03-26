@@ -9,3 +9,11 @@ public class Cotxe extends Vehicle {
         super(matricula, marca, model, preuBase, motor, rodes);
         this.nombrePlaces = nombrePlaces;
     }
+
+    // Calcula el precio del alquiler del coche en función de los días.
+    // El precio final es simplemente el precio base multiplicado por el número de días.
+    @Override
+    public double calcularPreu(int dies) {
+        return preuBase * dies;
+    }
+
