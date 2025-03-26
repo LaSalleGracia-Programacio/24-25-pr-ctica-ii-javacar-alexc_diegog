@@ -17,3 +17,8 @@ public class Cotxe extends Vehicle {
         return preuBase * dies;
     }
 
+    // Devuelve el tipo de vehículo (COTXE).
+    @Override
+    public TipusVehicle getTipus() {
+        return TipusVehicle.COTXE;
+    }
