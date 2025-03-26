@@ -22,3 +22,9 @@ public class Cotxe extends Vehicle {
     public TipusVehicle getTipus() {
         return TipusVehicle.COTXE;
     }
+
+    // Devuelve el número de plazas del coche.
+    public int getNombrePlaces() {
+        return nombrePlaces;
+    }
+}
